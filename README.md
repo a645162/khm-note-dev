@@ -1,11 +1,8 @@
-# khm-doc-computer
+# khm-note-dev
 
-Computer Document by Haomin Kong
+KHM Development Note by Haomin Kong
+
+https://github.com/a645162/khm-note-dev
 
 主页：
-https://a645162.github.io/khm-doc-computer/
-
-## Ref
-
-https://zhuanlan.zhihu.com/p/613037372
-https://www.mkdocs.org/user-guide/deploying-your-docs/
+https://a645162.github.io/khm-note-dev/
