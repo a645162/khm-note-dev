@@ -1,12 +1,19 @@
-version: "3"
 services:
-  mkdocs_doc_computer:
+  doc_pc:
     image: squidfunk/mkdocs-material
     restart: always
-    container_name: mkdocs_guide
     network_mode: bridge
     tty: true
     volumes:
-      - /site:/docs
+      - /root/Web/khm-doc-computer:/docs
     ports:
-      - 20000:8000
+      - 8001:8000
+  doc_dev:
+    image: squidfunk/mkdocs-material
+    restart: always
+    network_mode: bridge
+    tty: true
+    volumes:
+      - /root/Web/khm-note-dev:/docs
+    ports:
+      - 8002:8000

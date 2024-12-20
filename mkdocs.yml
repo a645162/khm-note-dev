@@ -1,5 +1,6 @@
 site_name: "KHM Development Wiki"
-site_url: https://a645162.github.io/khm-note-dev/
+# site_url: https://a645162.github.io/khm-note-dev/
+site_url: https://dev.konghaomin.cn/
 site_author: Haomin Kong
 site_description: >-
   KHM Dev的一些经验。
