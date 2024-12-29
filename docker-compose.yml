@@ -5,7 +5,7 @@ services:
     network_mode: bridge
     tty: true
     volumes:
-      - /root/Web/khm-doc-computer:/docs
+      - /root/Docker/MkDocs/khm-doc-computer:/docs
     ports:
       - 8001:8000
   doc_dev:
@@ -14,6 +14,6 @@ services:
     network_mode: bridge
     tty: true
     volumes:
-      - /root/Web/khm-note-dev:/docs
+      - /root/Docker/MkDocs/khm-note-dev:/docs
     ports:
       - 8002:8000
